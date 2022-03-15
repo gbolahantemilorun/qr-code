@@ -1,0 +1,43 @@
+body {
+    font-size: 15px;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    margin: auto;
+}
+
+main {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    width: 320px;
+    border-radius: 3%;
+}
+
+.card__image {
+    border-radius: 3%;
+    margin-top: 15px;
+    /* border: 1px solid blue; */
+}
+
+h1 {
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+p {
+    /* border: 1px solid red; */
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 7px;
+}
